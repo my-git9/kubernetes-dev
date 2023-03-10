@@ -1,6 +1,6 @@
 
 
-# kubernetes扩展点
+# 开篇
 
 Kubernetes 资源扩展
 
@@ -32,6 +32,8 @@ kubebuilder(快速创建controller的工具): https://github.com/kubernetes-sigs
 sample-apiserver(apiserver示例):https://github.com/kubernetes/sample-apiserver
 
 
+
+# client-go
 
 
 
