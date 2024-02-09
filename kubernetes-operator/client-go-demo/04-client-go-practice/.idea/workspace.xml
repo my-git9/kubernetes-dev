@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e88b4384-efab-4922-afa8-8cb5f8b69c47" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../03-informer/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/../03-informer/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-informer/go.sum" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/04-client-go-practice.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/controller.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../client-go.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../client-go.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

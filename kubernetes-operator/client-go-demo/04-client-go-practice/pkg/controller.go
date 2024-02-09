@@ -74,7 +74,6 @@ func (c *controller) Run(stopCh chan struct{}) {
 
 func (c *controller) worker() {
 	for c.processNextItem() {
-
 	}
 }
 
@@ -103,6 +102,7 @@ func (c *controller) syncService(key string) error {
 
 	// 如果没有 service，不做处理
 	// 注意：如果删除 service，k8s 的处理逻辑会将 OwnerReferences 为该 service 的 CR 删除
+	// get service name
 	service, err := c.serviceLister.Services(namespace).Get(name)
 	if errors.IsNotFound(err) {
 		return nil

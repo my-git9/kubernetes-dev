@@ -4,6 +4,7 @@ import (
 	"log"
 
 	"github.com/my-git9/kubernetes-dev/client-go-demo/04-client-go-practice/pkg"
+
 	"k8s.io/client-go/informers"
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"
