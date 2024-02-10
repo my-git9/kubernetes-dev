@@ -360,7 +360,7 @@ func (c *Controller) handleObject(obj interface{}) {
 	}
 	logger.V(4).Info("Processing object", "object", klog.KObj(object))
 	if ownerRef := metav1.GetControllerOf(object); ownerRef != nil {
-		// If this object is not owned by a App, we should not do anything more
+		// If this object is not owned by an App, we should not do anything more
 		// with it.
 		if ownerRef.Kind != "App" {
 			return

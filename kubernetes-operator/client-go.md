@@ -811,6 +811,15 @@ type RateLimiter interface {
 
 
 
+# client-go 实战
+
+```go
+go mod init github.com/my-git9/kubernetes-dev/client-go-demo/04-client-go-practice
+
+# 下载 client-go
+go get k8s.io/client-go
+```
+
 
 
 
